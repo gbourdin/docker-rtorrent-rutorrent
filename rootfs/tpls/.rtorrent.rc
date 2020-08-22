@@ -63,7 +63,7 @@ schedule2 = monitor_diskspace, 15, 60, ((close_low_diskspace,1000M))
 # method.set_key = event.download.finished,move_complete,"d.move_to_complete=$d.data_path=,$d.get_finished_dir="
 
 # Erase data when torrent deleted (no need erasedata plugin on ruTorrent)
-method.set_key = event.download.erased,delete_erased,"execute=rm,-rf,--,$d.data_path="
+# method.set_key = event.download.erased,delete_erased,"execute=rm,-rf,--,$d.data_path="
 
 # Will edit on a per user basis
 # Listening port for incoming peer traffic
