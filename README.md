@@ -11,6 +11,7 @@ To read about features and usage examples visit
 - Updated `rtorrent.rc` to disable DHT and increase some limits
 - Updated `rtorrent.rc` and `rtlocal.rc` to change where rtorrent ports will 
 be configured from
+- Updated `rtorrent.rc` to disable deleting downloaded files when torrent file is removed. I want to delete them explicitly
 - Updated `rtlocal.rc` to include a drop ins directory
 - Removed temp and completed directories from `rtlocal.rc` Torrent just download to the main dir
 
